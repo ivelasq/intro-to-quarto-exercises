@@ -34,12 +34,6 @@ The plot below shows the relationship between flipper and bill lengths of these 
 ```{r}
 #| label: plot-penguins
 #| warning: false
-#| fig.alt: "Scatterplot with flipper length in millimeters on
-#|  the x-axis, bill length in millimeters on the y-axis, colored
-#|   by species, showing a slightly positive relationship with
-#|    Chinstrap penguins having higher bill length but lower body
-#|     mass, Adelie with low bill length and low body mass, and
-#|      Gentoo with high body mass and high bill length."
 
 ggplot(penguins, 
        aes(x = flipper_length_mm, y = bill_length_mm)) +
