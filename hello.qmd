@@ -17,6 +17,11 @@ if(!require(palmerpenguins)){
     install.packages("palmerpenguins")
     library(palmerpenguins)
 }
+
+if(!require(downlit)){
+    install.packages("downlit")
+    library(downlit)
+}
 ```
 
 ## Meet Quarto
