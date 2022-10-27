@@ -32,7 +32,7 @@ The `penguins` data from the [**palmerpenguins**](https://allisonhorst.github.io
 The plot below shows the relationship between flipper and bill lengths of these penguins.
 
 ```{r}
-#| label: plot-penguins
+#| label: fig-penguins
 #| warning: false
 
 ggplot(penguins, 
