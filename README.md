@@ -19,3 +19,5 @@ Exercises for the 2022-10-27 R-Ladies St. Louis presentation, [Intro to Quarto](
 * More details on HTML theming: <https://quarto.org/docs/output-formats/html-themes.html>
 
 * A list of all Bootswatch variables: <https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss>
+
+* Awesome Quarto, with a list of extensions, resources, examples, and much more: <https://github.com/mcanouil/awesome-quarto>
