@@ -4,8 +4,6 @@
 [![Launch RStudio Cloud](https://img.shields.io/badge/launch-cloud-75aadb?style=flat&logo=rstudio)](https://rstudio.cloud/project/4823293)
 <!-- badges: end -->
 
-Exercises for the 2022-10-27 R-Ladies St. Louis presentation, [Intro to Quarto](https://github.com/ivelasq/2022-10-27_intro-to-quarto).
-
 ## Resources
 
 * A list for all YAML fields for HTML documents: <https://quarto.org/docs/reference/formats/html.html>
