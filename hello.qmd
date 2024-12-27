@@ -1,7 +1,8 @@
 ---
 title: "Penguins, meet Quarto!"
+title-block-banner: true
 format: html
-editor: visual
+editor: source
 ---
 
 ```{r}
@@ -39,6 +40,7 @@ The plot below shows the relationship between flipper and bill lengths of these 
 ```{r}
 #| label: fig-penguins
 #| warning: false
+#| code-line-numbers: "1-2"
 
 ggplot(penguins, 
        aes(x = flipper_length_mm, y = bill_length_mm)) +
@@ -52,3 +54,12 @@ ggplot(penguins,
   ) +
   theme_minimal()
 ```
+
+See @fig-penguins.
+
+[![](penguin.jpg){fig-alt="Alt text"}](https://quarto.org)
+
+:::{.callout-tip}
+Note that there are five types of callouts, including: 
+`note`, `tip`, `warning`, `caution`, and `important`.
+:::
